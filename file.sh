@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PERSON1=RAMESH
-PERSON2=SURESH
+PERSON1=pavan
+PERSON2=kiran
 
 
 echo "$PERSON1: HI,$PERSON2 "
