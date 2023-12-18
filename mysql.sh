@@ -11,4 +11,5 @@ else
     echo "ur root"
 
 fi
-    
+
+yum install mysql
