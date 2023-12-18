@@ -9,3 +9,4 @@ exit 1
 then 
 echo "ur root"
 fi
+yum install mysql
