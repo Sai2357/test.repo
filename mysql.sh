@@ -4,22 +4,11 @@ ID=$(id -u)
 
 if [ $ID -ne 0 ]
 
-    echo "error :pls run with root user"
-    exit 1
 then 
+    echo "error : pls run with root user"
+    exit 1#to stop here itself if is error
+else
     echo "ur root"
 
 fi
-yum install mysql
-
-if [ $? -ne 0 ] #validations to chck whether installation happend properly or not
-
-    echo "installation of mysql is not sucess"
-
-then
-    echo "installation of mysql is sucess"
-
-fi
-
- 
-
+    
