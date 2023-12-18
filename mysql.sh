@@ -12,7 +12,7 @@ then
 fi
 yum install mysql
 
-if [ $? -ne 0 ]
+if [ $? -ne 0 ] #validations to chck whether installation happend properly or not
 
     echo "installation of mysql is not sucess"
 
